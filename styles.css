@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, 'Open Sans', sans-serif;
+}
+
+.pad {
+    padding: 0 144px 0 144px;
+}
+
+.header {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 24px 144px;
+}
+
+.header .logo {
+    margin: 0 auto 0 0;
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header a, .hero div p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header, .hero {
+    background-color: #1F2937;
+}
+
+.hero {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+.hero div {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+}
+
+.hero div button {
+    width: 130px;
+    height: 36px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #3B82F6;
+    margin-top: 8px;
+    border-width: 0;
+}
+
+.hero div .heading {
+    margin-bottom: 8px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero .image {
+    width: 480px;
+    height: 250px;
+    margin: 16px;
+    background-color: gray;
+}
+
+.container {
+    padding-bottom: 96px;
+}
+
+.container .heading {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.container .cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    color: #4B5563;
+    font-size: 16px;
+}
+
+.container .card {
+    width: 144px;
+    text-align: center
+}
+
+.container .image {
+    width: 144px;
+    height: 144px;
+    border-width: 4px;
+    border-color: #3B82F6;
+    border-style: solid;
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.quote .text {
+    width: 725px;
+    margin: auto;
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .person {
+    width: 650px;
+    margin: auto;
+    text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+.sign-up {
+    max-width: 1000px;
+    background-color: #3B82F6;
+    margin: 96px auto;
+    color: #F9FAF8;
+    display: flex;
+    padding: 48px 96px;
+    border-radius: 8px;
+    align-items: center;
+    gap: 32px;
+}
+
+.sign-up .heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-up button {
+    width: 130px;
+    height: 36px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: inherit;
+    border-style: solid;
+    background-color: #3B82F6;
+    color: inherit;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: auto;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+button:hover {
+    filter: brightness(90%);
+}
